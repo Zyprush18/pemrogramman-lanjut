@@ -11,7 +11,7 @@ public class diskon_belanja {
         System.out.print("Masukkan Jumlah Barang: ");
         int jumlah_barang = input.nextInt();
 
-        System.out.print("Masukkan Diskon: ");
+        System.out.print("Masukkan Diskon (%): ");
         double diskon = input.nextDouble();
 
         double total = harga_belanja * jumlah_barang;

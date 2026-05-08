@@ -2,16 +2,14 @@ import java.util.Scanner;
 
 public class konverter_waktu {
     public static void main(){
-        System.out.println("====");
+        System.out.println("==== Selamat Datang di Konverter waktu: detik ke jam ====");
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan detik: ");
-        int detik = input.nextInt();
+        double detik = input.nextDouble();
 
-        int jam = detik / 3600;
-        int menit = detik / 60;
+        double jam = detik / 3600;
 
-        System.out.println(detik + " detik setara dengan "+ jam + " jam dan "+ menit + " menit");
+        System.out.printf("%d detik setara dengan %.1f jam",(int)(detik), jam);
     }
-
 }
